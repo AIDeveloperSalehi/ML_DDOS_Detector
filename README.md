@@ -5,8 +5,11 @@ The presentation Link:
 https://youtu.be/eVyPUjRK_hU
 
 we have two different code written in the format of .ipynb (Jupiter notebook)
+
 1- CICDDOS_detection.ipynb
-1-1- make sure that you download the dataset and put that in "DateSets" and save it with name "cicddos2019_dataset.csv" 
+
+\quad 1-1- make sure that you download the dataset and put that in "DateSets" and save it with name "cicddos2019_dataset.csv" 
+
 The source of dataset is : https://www.unb.ca/cic/datasets/ddos-2019.html
 (you aso can change the path of dataset to any dataset that you want)
 1-2- we used "df = df_main.sample(n=100000, random_state=0) " to reduce the training time  (you can add the entire dataset by commenting this line)
